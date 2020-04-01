@@ -1,0 +1,50 @@
+In this unit, you'll use the .NET Core CLI to build, compile, and run an example web application within the Cloud Shell's command shell.
+
+1. Se puede compilar un proyecto de .NEt Core haciendo lo siguiente en Cloud Shell:
+
+    > dotnet run
+
+    Esto hace:
+        > Encuentra los archvos del proyceto en el directorio actual
+        > Descarga e instala cualquier dependencia
+        > Compila el proyecto
+        > Hospeda la aplicación web en el servidor web Kestrel con ASP .NEt Core 
+
+    La aplicación se hospeada en http://localhost:5000 y https://localhost:5001 pero no hay endpoint público para acceder
+
+2. El siguiente comando Publica la web en un endpoint de una Azure App Service
+        > az webapp up
+    
+    You can launch the app at http://webapp<random instance ID number here>.azurewebsites.net
+
+3. Creamos una nueva pagina Razor y su correspondiente PageModel con la herramienta CLI de .Net Core haciendo
+    >dotnet new page --name Create \ 
+        --namespace ContosoPets.Ui.Pages.Products
+
+
+A razor page:
+
+@page
+@model ContosoPets.Ui.Pages.Products.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create Product</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Product.Name" class="control-label"></label>
+        <input asp-for="Product.Name" class="form-control" />
+        <span asp-validation-for="Product.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Product.Price" class="control-label"></label>
+        <input asp-for="Product.Price" class="form-control" />
+        <span asp-validation-for="Product.Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+

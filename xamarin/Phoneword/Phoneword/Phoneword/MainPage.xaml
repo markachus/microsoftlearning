@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Phoneword.MainPage"
+             Padding="20">
+
+    <StackLayout Orientation="Vertical" Spacing="15">
+        <!-- Place new controls here -->
+        <Label Text="Enter a Phoneword:"/>
+        <Entry x:Name="phoneNumberText" Text="1-855-XAMARIN" />
+        <Button x:Name="BtnTranslate" Text="Translate"></Button>
+        <Button x:Name="BtnCall" Text="Call" IsEnabled="False"></Button>
+    </StackLayout>
+
+</ContentPage>

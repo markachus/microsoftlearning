@@ -575,11 +575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
+      "projectUniqueName": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
       "projectName": "Phoneword",
-      "projectPath": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
+      "projectPath": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
       "packagesPath": "C:\\Users\\Marc Esteve\\.nuget\\packages\\",
-      "outputPath": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\obj\\",
+      "outputPath": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj": {}
+    "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj": {}
   },
   "projects": {
-    "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj": {
+    "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj",
+        "projectUniqueName": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj",
         "projectName": "Phoneword.iOS",
-        "projectPath": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj",
+        "projectPath": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword.iOS\\Phoneword.iOS.csproj",
         "packagesPath": "C:\\Users\\Marc Esteve\\.nuget\\packages\\",
-        "outputPath": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword.iOS\\obj\\",
+        "outputPath": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj": {
-                "projectPath": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj"
+              "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj": {
+                "projectPath": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj": {
+    "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
+        "projectUniqueName": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
         "projectName": "Phoneword",
-        "projectPath": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
+        "projectPath": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\Phoneword.csproj",
         "packagesPath": "C:\\Users\\Marc Esteve\\.nuget\\packages\\",
-        "outputPath": "C:\\proyectos\\Phoneword\\Phoneword\\Phoneword\\obj\\",
+        "outputPath": "C:\\proyectos\\xamarin\\Phoneword\\Phoneword\\Phoneword\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
